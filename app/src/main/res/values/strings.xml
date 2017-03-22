@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TallerAndroid</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre:</string>
+    <string name="continuar">continuar</string>
 </resources>
