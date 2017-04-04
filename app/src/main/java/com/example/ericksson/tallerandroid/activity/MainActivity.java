@@ -1,14 +1,15 @@
-package com.example.ericksson.tallerandroid;
+package com.example.ericksson.tallerandroid.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.example.ericksson.tallerandroid.R;
+
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Bind()
 
     @OnClick(R.id.button_listo)
     public void buttonListo(){
