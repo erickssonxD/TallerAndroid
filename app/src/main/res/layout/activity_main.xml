@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerInParent="true"
-    tools:context="com.example.ericksson.tallerandroid.MainActivity">
+    tools:context="com.example.ericksson.tallerandroid.activity.MainActivity">
 
     <RelativeLayout
         android:layout_centerInParent="true"
