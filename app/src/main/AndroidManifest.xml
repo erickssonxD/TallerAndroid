@@ -18,7 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ActivityRetrofit"></activity>
+        <activity android:name=".activity.ActivityRetrofit" />
+
+        <service
+            android:name=".activity.IntentServiceEjemplo"
+            android:exported="false"></service>
     </application>
 
 </manifest>
