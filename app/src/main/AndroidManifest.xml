@@ -22,7 +22,9 @@
 
         <service
             android:name=".activity.IntentServiceEjemplo"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <activity android:name=".activity.ServiceCallerActivity"></activity>
     </application>
 
 </manifest>
