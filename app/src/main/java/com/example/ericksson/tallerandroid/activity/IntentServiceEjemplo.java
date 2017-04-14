@@ -2,7 +2,6 @@ package com.example.ericksson.tallerandroid.activity;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.content.Context;
 
 import com.example.ericksson.tallerandroid.Util.Constants;
 import com.example.ericksson.tallerandroid.Util.TallerActions;
@@ -29,7 +28,7 @@ public class IntentServiceEjemplo extends IntentService {
     private void multiply(int numero1, int numero2) {
         int resultado = numero1*numero2;
         Intent intent = new Intent(TallerActions.ACTION_RECEIVE_RESULT);
-        intent.putExtra(Constants.RESULTADO, resultado);
+        intent.putExtra(Constants.RESULT, resultado);
         sendBroadcast(intent);
     }
 
